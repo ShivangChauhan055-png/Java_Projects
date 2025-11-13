@@ -244,7 +244,7 @@ public class HeartArt extends JPanel {
         g2.draw(path);
 
         // ❤️ Naam Display with Fade Effect ❤️
-        String name = "Anjana"; // <--- yahan apna naam likh
+        String name = "Shivang"; // <--- yahan apna naam likh
         g2.setFont(new Font("Segoe Script", Font.BOLD, 50));
         g2.setColor(new Color(255, 105, 180, Math.min(255, (int) (alpha * 255)))); // pink glow + fade
         FontMetrics fm = g2.getFontMetrics();
