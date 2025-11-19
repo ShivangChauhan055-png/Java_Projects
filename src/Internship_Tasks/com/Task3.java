@@ -2,6 +2,7 @@ package Internship_Tasks.com;
 
 
 // Tic-Tac-Toe Game
+
 import java.util.*;
 
 public class Task3 {
@@ -9,7 +10,6 @@ public class Task3 {
     static String[] board;
     static String turn;
 
-    // CheckWinner method will decide the winner
     static String checkWinner() {
         for (int a = 0; a < 8; a++) {
             String line = switch (a) {
