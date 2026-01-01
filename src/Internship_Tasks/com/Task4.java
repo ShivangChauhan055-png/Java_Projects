@@ -2,7 +2,7 @@ package Internship_Tasks.com;
 
 import java.util.Scanner;
 
-public class ConnectFour {
+public class Task4 {
     private static final int NUMBER_OF_ROWS = 6;
     private static final int NUMBER_OF_COLUMNS = 7;
     private static final char EMPTY_SLOT = '.';
@@ -13,7 +13,7 @@ public class ConnectFour {
     private char currentPlayerDisc;
     private Scanner userInput;
 
-    public ConnectFour() {
+    public Task4() {
         gameBoard = new char[NUMBER_OF_ROWS][NUMBER_OF_COLUMNS];
         currentPlayerDisc = RED_PLAYER;
         userInput = new Scanner(System.in);
@@ -170,7 +170,7 @@ public class ConnectFour {
     }
 
     public static void main(String[] args) {
-        ConnectFour game = new ConnectFour();
+        Task4 game = new Task4();
         game.play();
     }
 }
