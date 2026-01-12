@@ -107,7 +107,7 @@
 //            points.add(new Point((int) (x * scale), (int) (y * scale)));
 //        }
 //
-//        // Infinite animation timer 🔁
+//        // Infinite animation timer
 //        Timer timer = new Timer(40, e -> {
 //            step += direction; // step change karta rahe
 //            if (step >= points.size() / 2 || step <= 1)
@@ -160,7 +160,7 @@
 //    }
 //}
 
-package Project2;
+package HeartArt;
 
 import javax.swing.*; // GUI ke liye
 import java.awt.*; // drawing ke liye
